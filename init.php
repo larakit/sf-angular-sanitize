@@ -8,6 +8,5 @@
  */
 \Larakit\StaticFiles\Manager::package('larakit/sf-angular-sanitize')
     ->setSourceDir('public')
-    ->ngModule('ngSanitize')
     ->usePackage('larakit/sf-angular')
     ->jsPackage('angular-sanitize.min.js');
